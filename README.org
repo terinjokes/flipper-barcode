@@ -4,3 +4,10 @@
 [[file:docs/barcode.png]]
 
 Flipper Barcode is a 1-D barcode generator for the Flipper Zero. Currently only EAN-13 (and UPC-A) barcodes are supported.
+
+* Building and Installation
+
+- Setup [[https://github.com/flipperdevices/flipperzero-firmware/blob/dev/documentation/fbt.md][Flipper Build Tool]]
+- Build with =fbt fap_barcode=
+- Copy to =apps/Tools/barcode.fap= on your Flipper's SD Card
+- Copy =examples/Bonuskaart.bar= to =barcode/Bonuskaart.bar= on the SD Card.
