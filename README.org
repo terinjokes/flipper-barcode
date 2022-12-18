@@ -1,0 +1,6 @@
+#+title: Flipper Barcode
+#+OPTIONS: toc:nil
+
+[[file:docs/barcode.png]]
+
+Flipper Barcode is a 1-D barcode generator for the Flipper Zero. Currently only EAN-13 (and UPC-A) barcodes are supported.

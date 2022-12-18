@@ -1,0 +1,19 @@
+App(
+    appid="barcode",
+    name="Barcode",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="barcode_app",
+    cdefines=["APP_BARCODE"],
+    requires=[
+        "gui",
+        "input",
+        "dialogs",
+        "storage"
+    ],
+    stack_size=2 * 1024,
+    order=33,
+    fap_category="Tools",
+    fap_icon_assets="assets",
+    fap_icon="barcode_10px.png",
+    sources=["barcode.c", "barcode_file_dict.c", "barcode_icons.c", "protocols/*.c"],
+)
